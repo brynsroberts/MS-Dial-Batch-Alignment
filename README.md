@@ -2,7 +2,7 @@
 
 Takes different batches of excel sheets in the same folder as script from the same LC-MS run and combines 
 features into a new excel sheet called "results.xlsx".  Features are aligned based on annotation name.  
-"""
+
 # Steps for getting matching annotation names:
 
 * process initial batch with ~200 samples and all MSMS samples
