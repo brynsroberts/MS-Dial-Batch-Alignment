@@ -1,9 +1,6 @@
 # MS-Dial-Batch-Alignment
-Use for large data sets that cannot be processed in a single batch using MS-Dial.  Will take excel export sheet and align features.
 
-Name: Bryan Roberts
-Date: 8/8/2019
-Description: Takes different batches of excel sheets in the same folder as script from the same LC-MS run and combines 
+Takes different batches of excel sheets in the same folder as script from the same LC-MS run and combines 
 features into a new excel sheet called "results.xlsx".  Features are aligned based on annotation name.  Steps for 
 getting matching annotation names:
 -process initial batch with ~200 samples and all MSMS samples
@@ -11,8 +8,20 @@ getting matching annotation names:
 -mzrt name will be in the format name_adduct_mz_rt
 -process remaining data in batches using new mz/rt and correcting retention times for each batch
 -use python script to align data
-Sources:
-https://automatetheboringstuff.com/
-http://prime.psc.riken.jp/Metabolomics_Software/MS-DIAL/
-Excel File Format:
-Standard exported output from MS-Dial
+
+## Getting Started
+
+Put script in folder with all excel files to align and run script.
+
+### Prerequisites
+
+Excel files in MS-Dial 3.90 export format or later.
+
+## Authors
+
+* **Bryan Roberts**
+
+## Sources
+
+* https://automatetheboringstuff.com/
+* http://prime.psc.riken.jp/Metabolomics_Software/MS-DIAL/
